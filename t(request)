@@ -1,0 +1,569 @@
+[1mdiff --git a/functional_tests/__pycache__/tests.cpython-36.pyc b/functional_tests/__pycache__/tests.cpython-36.pyc[m
+[1mindex eb50128..6cc64ea 100644[m
+Binary files a/functional_tests/__pycache__/tests.cpython-36.pyc and b/functional_tests/__pycache__/tests.cpython-36.pyc differ
+[1mdiff --git a/geckodriver.log b/geckodriver.log[m
+[1mindex 755c0d2..3aed536 100644[m
+[1m--- a/geckodriver.log[m
+[1m+++ b/geckodriver.log[m
+[36m@@ -178,3 +178,320 @@[m [mU 298[m
+  [m
+ ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+ [m
+[32m+[m[32m1567377995006	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.UKJtwuKZeKRC"[m
+[32m+[m[32m1567377996298	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567377996298	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567377996298	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567377996298	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567378000154	Marionette	INFO	Listening on port 16105[m
+[32m+[m[32m1567378000299	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567378002485	Marionette	INFO	Stopped listening on port 16105[m
+[32m+[m[32m[Parent 8560, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Parent 8560, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 15412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 1541[Child 11904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 11904, [Parent 8560, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 11340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 11340[m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m[GPU 11660, Chro[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567378006909	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.zhemJV63X9Is"[m
+[32m+[m[32m1567378007585	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567378007585	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567378007586	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567378007586	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567378010055	Marionette	INFO	Listening on port 16145[m
+[32m+[m[32m1567378010538	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567378011857	Marionette	INFO	Stopped listening on port 16145[m
+[32m+[m[32mJavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 601: TypeError: this.tablesData[table] is undefined[m
+[32m+[m[32m[Child 11684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Parent 9736, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 5220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 5220,[m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m[GPU 8508,[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567378520398	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.IXcpYoLbkKGJ"[m
+[32m+[m[32m1567378521754	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567378521755	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567378521755	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567378521755	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567378524375	Marionette	INFO	Listening on port 16491[m
+[32m+[m[32m1567378524522	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567378535490	Marionette	INFO	Stopped listening on port 16491[m
+[32m+[m[32m[Parent 14012, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m[GPU 6776,[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567378539796	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.DwMWjw1mhuXv"[m
+[32m+[m[32m1567378540351	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567378540351	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567378540352	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567378540352	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567378542753	Marionette	INFO	Listening on port 16534[m
+[32m+[m[32m1567378542925	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567378553791	Marionette	INFO	Stopped listening on port 16534[m
+[32m+[m[32m[Child 4040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 4040, Ch[Child 540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/com[Parent 10796, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 15812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 1581[m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m[GPU 9600, Chrome_ChildThread] WARNING: p[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567379113366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.OkGpuLAX9tcj"[m
+[32m+[m[32m1567379114260	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567379114260	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567379114261	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567379114261	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567379116661	Marionette	INFO	Listening on port 16985[m
+[32m+[m[32m1567379116983	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567379128551	Marionette	INFO	Stopped listening on port 16985[m
+[32m+[m[32m[Parent 11756, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 9768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child[Child 8384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 8384, Ch[Parent 11756, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 3924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 3924, Chrome_Chil[m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m[GPU 15716, Chrom[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567379133274	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.xZmSeLNCUGGf"[m
+[32m+[m[32m1567379133924	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567379133924	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567379133924	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567379133925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567379137075	Marionette	INFO	Listening on port 17063[m
+[32m+[m[32m1567379137400	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567379138574	Marionette	INFO	Stopped listening on port 17063[m
+[32m+[m[32m[Child 3324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 3324, Chrome_ChildThread] WARNING: pip[Child 14868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 14868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/commo[Parent 14860, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 12776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 12776,[m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m[GPU 13664, Chrome_ChildThread] WARNING: pipe err[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567379143646	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.CEeeWTBVCSY9"[m
+[32m+[m[32m1567379144377	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567379144378	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567379144378	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567379144379	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567379147476	Marionette	INFO	Listening on port 17156[m
+[32m+[m[32m1567379147770	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567379148260	Marionette	INFO	Stopped listening on port 17156[m
+[32m+[m[32m[Child 13672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 1367[Parent 256, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 14628, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 14628,[Parent 256, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m[GPU 3108,[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567564499971	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.SPn95jE45vM0"[m
+[32m+[m[32m1567564501298	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567564501298	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567564501298	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567564501298	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567564506187	Marionette	INFO	Listening on port 17903[m
+[32m+[m[32m1567564506225	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567564508697	Marionette	INFO	Stopped listening on port 17903[m
+[32m+[m[32m[Parent 9504, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Parent 9504, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Parent 9504, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 9684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m[GPU 8540, Chrome_ChildThr[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567564513231	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.E0JkUiLT9s4Q"[m
+[32m+[m[32m1567564514200	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567564514200	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567564514200	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567564514200	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567564517535	Marionette	INFO	Listening on port 17944[m
+[32m+[m[32m1567564517955	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567564519468	Marionette	INFO	Stopped listening on port 17944[m
+[32m+[m[32m[Parent 13824, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 5300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 7572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 7572, Chrome_ChildThread] WARNING: pipe er[Parent 13824, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567564524777	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.ML3akmGU2UFt"[m
+[32m+[m[32m1567564525717	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567564525718	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567564525718	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567564525718	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567564529483	Marionette	INFO	Listening on port 17981[m
+[32m+[m[32m1567564529519	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567564540552	Marionette	INFO	Stopped listening on port 17981[m
+[32m+[m[32m[Child 3480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 3480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ip[Child 13280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 1[Parent 2300, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 8472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 8472,[m[41m [m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m[GPU[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567565121722	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.DqiUdgVgPI8k"[m
+[32m+[m[32m1567565123075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567565123076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567565123076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567565123076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567565126742	Marionette	INFO	Listening on port 18062[m
+[32m+[m[32m1567565126968	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567565129180	Marionette	INFO	Stopped listening on port 18062[m
+[32m+[m[32m[Parent 16680, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Parent 16680, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 11120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 15388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 15388, Chrome_ChildThread] WARNING: pipe [Parent 16680, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 14572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 145[m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m[GPU 10[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567565133699	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.9UXWwbwmQweG"[m
+[32m+[m[32m1567565134498	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567565134498	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567565134498	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567565134498	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567565137120	Marionette	INFO	Listening on port 18103[m
+[32m+[m[32m1567565137331	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567565138524	Marionette	INFO	Stopped listening on port 18103[m
+[32m+[m[32m[Parent 7776, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 10820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 10820, C[m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m[GPU 10644, Chrome_ChildThread[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567565143088	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.vK0LMs6ab9vz"[m
+[32m+[m[32m1567565143735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567565143735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567565143735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567565143735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567565146206	Marionette	INFO	Listening on port 18140[m
+[32m+[m[32m1567565146711	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567565157532	Marionette	INFO	Stopped listening on port 18140[m
+[32m+[m[32m[Parent 16924, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Parent 16924, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 2532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Parent 16924, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[GPU[m[41m [m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m7308, Chr[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567565437813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.IqibzFPCv8DP"[m
+[32m+[m[32m1567565438735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567565438735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567565438735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567565438735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567565442588	Marionette	INFO	Listening on port 18292[m
+[32m+[m[32m1567565443038	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567565454219	Marionette	INFO	Stopped listening on port 18292[m
+[32m+[m[32m[Child 9940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 137[68, CChrhilod 9940, Chrome_Cme_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 13768, Chrome_ChildThre[Parent 12884, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 13888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 138[m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567565458644	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.ajsbId7woE4T"[m
+[32m+[m[32m1567565459951	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567565459951	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567565459952	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567565459952	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567565462705	Marionette	INFO	Listening on port 18328[m
+[32m+[m[32m1567565462789	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567565473594	Marionette	INFO	Stopped listening on port 18328[m
+[32m+[m[32m[Parent 9536, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 4872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 4872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/c[Parent 9536, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 14872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 14[m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m[GPU[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567565663467	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.LJ9UO1x1wpHK"[m
+[32m+[m[32m1567565664090	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567565664090	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567565664090	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567565664090	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567565666715	Marionette	INFO	Listening on port 18414[m
+[32m+[m[32m1567565667103	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567565669873	Marionette	INFO	Stopped listening on port 18414[m
+[32m+[m[32m[Child 10080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 10080, Chrome_Child[Child 10096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 1009[m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m[GPU 16704[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567565674453	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.AEqsD1EUSUBA"[m
+[32m+[m[32m1567565675328	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567565675328	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567565675329	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567565675329	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567565677777	Marionette	INFO	Listening on port 18458[m
+[32m+[m[32m1567565678074	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567565679298	Marionette	INFO	Stopped listening on port 18458[m
+[32m+[m[32m[Parent 6464, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m[GPU 154[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[32m+[m[32m1567565683878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Drew\\AppData\\Local\\Temp\\rust_mozprofile.sKskszHdMXnj"[m
+[32m+[m[32m1567565684463	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons[m
+[32m+[m[32m1567565684463	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry[m
+[32m+[m[32m1567565684463	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/[m
+[32m+[m[32m1567565684463	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*[m
+[32m+[m[32m1567565686876	Marionette	INFO	Listening on port 18496[m
+[32m+[m[32m1567565687028	Marionette	WARN	TLS certificate errors will be ignored for this session[m
+[32m+[m[32m1567565697877	Marionette	INFO	Stopped listening on port 18496[m
+[32m+[m[32m[Parent 7032, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Parent 7032, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 11348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 11348,[Parent 7032, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 15044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341[m
+[32m+[m[32m[Child 15044[GPU 11196[m
+[32m+[m[32m###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost[m
+[32m+[m
+[32m+[m[32m, Chrome_ChildThrea[m
+[32m+[m[32m###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv[m
+[32m+[m
+[1mdiff --git a/lists/__pycache__/models.cpython-36.pyc b/lists/__pycache__/models.cpython-36.pyc[m
+[1mindex 618e3aa..e0df10e 100644[m
+Binary files a/lists/__pycache__/models.cpython-36.pyc and b/lists/__pycache__/models.cpython-36.pyc differ
+[1mdiff --git a/lists/__pycache__/tests.cpython-36.pyc b/lists/__pycache__/tests.cpython-36.pyc[m
+[1mindex 5b82183..977df8f 100644[m
+Binary files a/lists/__pycache__/tests.cpython-36.pyc and b/lists/__pycache__/tests.cpython-36.pyc differ
+[1mdiff --git a/lists/__pycache__/views.cpython-36.pyc b/lists/__pycache__/views.cpython-36.pyc[m
+[1mindex a9cada3..0734a18 100644[m
+Binary files a/lists/__pycache__/views.cpython-36.pyc and b/lists/__pycache__/views.cpython-36.pyc differ
+[1mdiff --git a/lists/migrations/0005_auto_20190903_2023.py b/lists/migrations/0005_auto_20190903_2023.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..59d0848[m
+[1m--- /dev/null[m
+[1m+++ b/lists/migrations/0005_auto_20190903_2023.py[m
+[36m@@ -0,0 +1,27 @@[m
+[32m+[m[32m# -*- coding: utf-8 -*-[m
+[32m+[m[32m# Generated by Django 1.11.23 on 2019-09-04 03:23[m
+[32m+[m[32mfrom __future__ import unicode_literals[m
+[32m+[m
+[32m+[m[32mfrom django.db import migrations, models[m
+[32m+[m[32mimport django.db.models.deletion[m
+[32m+[m
+[32m+[m
+[32m+[m[32mclass Migration(migrations.Migration):[m
+[32m+[m
+[32m+[m[32m    dependencies = [[m
+[32m+[m[32m        ('lists', '0004_auto_20190826_1959'),[m
+[32m+[m[32m    ][m
+[32m+[m
+[32m+[m[32m    operations = [[m
+[32m+[m[32m        migrations.CreateModel([m
+[32m+[m[32m            name='List',[m
+[32m+[m[32m            fields=[[m
+[32m+[m[32m                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),[m
+[32m+[m[32m            ],[m
+[32m+[m[32m        ),[m
+[32m+[m[32m        migrations.AddField([m
+[32m+[m[32m            model_name='item',[m
+[32m+[m[32m            name='list',[m
+[32m+[m[32m            field=models.ForeignKey(default=None, on_delete=django.db.models.deletion.CASCADE, to='lists.List'),[m
+[32m+[m[32m        ),[m
+[32m+[m[32m    ][m
+[1mdiff --git a/lists/migrations/__pycache__/0005_auto_20190903_2023.cpython-36.pyc b/lists/migrations/__pycache__/0005_auto_20190903_2023.cpython-36.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1dd5c42[m
+Binary files /dev/null and b/lists/migrations/__pycache__/0005_auto_20190903_2023.cpython-36.pyc differ
+[1mdiff --git a/lists/models.py b/lists/models.py[m
+[1mindex a7a838a..6a21af9 100644[m
+[1m--- a/lists/models.py[m
+[1m+++ b/lists/models.py[m
+[36m@@ -1,6 +1,10 @@[m
+ from django.db import models[m
+ [m
+[32m+[m[32mclass List(models.Model):[m
+[32m+[m[32m    pass[m
+[32m+[m
+ class Item(models.Model):[m
+     text = models.TextField(default='')[m
+[32m+[m[32m    list = models.ForeignKey(List, default=None)[m
+ [m
+ # Create your models here.[m
+\ No newline at end of file[m
+[1mdiff --git a/lists/templates/home.html b/lists/templates/home.html[m
+[1mindex 32faedd..3ee40a6 100644[m
+[1m--- a/lists/templates/home.html[m
+[1m+++ b/lists/templates/home.html[m
+[36m@@ -4,15 +4,9 @@[m
+         <title>To-Do lists</title>[m
+     </head>[m
+     <body>[m
+[31m-    <h1>Your To-Do list</h1>[m
+[31m-    <form method="POST">[m
+[31m-        <input name="item_text" id="id_new_item" placeholder="Enter a to-do item" />[m
+[31m-        {% csrf_token %}[m
+[31m-    </form>[m
+[31m-[m
+[31m-    <table id="id_list_table">[m
+[31m-      {% for item in items %}[m
+[31m-        <tr><td>{{ forloop.counter }}: {{ item.text }}</td></tr>[m
+[31m-    {% endfor %}[m
+[31m-    </table>[m
+[32m+[m[32m  <h1>Start a new To-Do list</h1>[m
+[32m+[m[32m  <form method="POST" action="/lists/new">[m
+[32m+[m[32m    <input name="item_text" id="id_new_item" placeholder="Enter a to-do item" />[m
+[32m+[m[32m    {% csrf_token %}[m
+[32m+[m[32m  </form>[m
+ </body>[m
+\ No newline at end of file[m
+[1mdiff --git a/lists/templates/list.html b/lists/templates/list.html[m
+[1mindex 23bb6b7..09be968 100644[m
+[1m--- a/lists/templates/list.html[m
+[1m+++ b/lists/templates/list.html[m
+[36m@@ -5,7 +5,8 @@[m
+     </head>[m
+     <body>[m
+     <h1>Your To-Do list</h1>[m
+[31m-    <form method="POST" action="/">[m
+[32m+[m[32m    <form method="POST" action="/lists/new">[m
+[32m+[m
+         <input name="item_text" id="id_new_item" placeholder="Enter a to-do item" />[m
+         {% csrf_token %}[m
+     </form>[m
+[1mdiff --git a/lists/tests.py b/lists/tests.py[m
+[1mindex 544342d..0d9d608 100644[m
+[1m--- a/lists/tests.py[m
+[1m+++ b/lists/tests.py[m
+[36m@@ -1,5 +1,5 @@[m
+ from django.test import TestCase[m
+[31m-from lists.models import Item[m
+[32m+[m[32mfrom lists.models import Item, List[m
+ from django.test import LiveServerTestCase[m
+ from selenium import webdriver[m
+ from selenium.webdriver.common.keys import Keys[m
+[36m@@ -16,46 +16,59 @@[m [mclass HomePageTest(TestCase):[m
+         response = self.client.get('/')[m
+         self.assertTemplateUsed(response, 'home.html')[m
+ [m
+[31m-    def test_can_save_a_POST_request(self):[m
+[31m-        self.client.post('/', data={'item_text': 'A new list item'})[m
+[31m-[m
+[31m-        self.assertEqual(Item.objects.count(), 1)[m
+[31m-        new_item = Item.objects.first()[m
+[31m-        self.assertEqual(new_item.text, 'A new list item')[m
+[31m-[m
+[31m-    def test_redirects_after_POST(self):[m
+[31m-        response = self.client.post('/', data={'item_text': 'A new list item'})[m
+[31m-        self.assertEqual(response.status_code, 302)[m
+[31m-        self.assertEqual(response['location'], '/')[m
+[31m-[m
+     def test_only_saves_items_when_necessary(self):[m
+         self.client.get('/')[m
+         self.assertEqual(Item.objects.count(), 0)[m
+ [m
+[31m-    def test_displays_all_list_items(self):[m
+[31m-        Item.objects.create(text='itemey 1')[m
+[31m-        Item.objects.create(text='itemey 2')[m
+[31m-[m
+[31m-        response = self.client.get('/')[m
+[31m-[m
+[31m-        self.assertIn('itemey 1', response.content.decode())[m
+[31m-        self.assertIn('itemey 2', response.content.decode())[m
+[31m-[m
+[31m-class ItemModelTest(TestCase):[m
+[32m+[m[32mclass ListAndItemModelsTest(TestCase):[m
+ [m
+     def test_saving_and_retrieving_items(self):[m
+[32m+[m[32m        list_ = List()[m
+[32m+[m[32m        list_.save()[m
+[32m+[m
+         first_item = Item()[m
+         first_item.text = 'The first (ever) list item'[m
+[32m+[m[32m        first_item.list = list_[m
+         first_item.save()[m
+ [m
+         second_item = Item()[m
+         second_item.text = 'Item the second'[m
+[32m+[m[32m        second_item.list = list_[m
+         second_item.save()[m
+ [m
+[32m+[m[32m        saved_list = List.objects.first()[m
+[32m+[m[32m        self.assertEqual(saved_list, list_)[m
+[32m+[m
+         saved_items = Item.objects.all()[m
+         self.assertEqual(saved_items.count(), 2)[m
+ [m
+         first_saved_item = saved_items[0][m
+         second_saved_item = saved_items[1][m
+         self.assertEqual(first_saved_item.text, 'The first (ever) list item')[m
+[31m-        self.assertEqual(second_saved_item.text, 'Item the second')[m
+\ No newline at end of file[m
+[32m+[m[32m        self.assertEqual(first_saved_item.list, list_)[m
+[32m+[m[32m        self.assertEqual(second_saved_item.text, 'Item the second')[m
+[32m+[m[32m        self.assertEqual(second_saved_item.list, list_)[m
+[32m+[m
+[32m+[m[32mclass ListViewTest(TestCase):[m
+[32m+[m
+[32m+[m[32m    def test_uses_list_template(self):[m
+[32m+[m[32m        response = self.client.get('/lists/the-only-list-in-the-world/')[m
+[32m+[m[32m        self.assertTemplateUsed(response, 'list.html')[m
+[32m+[m
+[32m+[m[32m    def test_displays_all_items(self):[m
+[32m+[m[32m        list_ = List.objects.create()[m
+[32m+[m[32m        Item.objects.create(text='itemey 1', list=list_)[m
+[32m+[m[32m        Item.objects.create(text='itemey 2', list=list_)[m
+[32m+[m
+[32m+[m[32mclass NewListTest(TestCase):[m
+[32m+[m
+[32m+[m[32m    def test_can_save_a_POST_request(self):[m
+[32m+[m[32m        self.client.post('/lists/new', data={'item_text': 'A new list item'})[m
+[32m+[m[32m        self.assertEqual(Item.objects.count(), 1)[m
+[32m+[m[32m        new_item = Item.objects.first()[m
+[32m+[m[32m        self.assertEqual(new_item.text, 'A new list item')[m
+[32m+[m
+[32m+[m[32m    def test_redirects_after_POST(self):[m
+[32m+[m[32m        response = self.client.post('/lists/new', data={'item_text': 'A new list item'})[m
+[32m+[m[32m        self.assertRedirects(response, '/lists/the-only-list-in-the-world/')[m
+[41m+[m
+[1mdiff --git a/lists/views.py b/lists/views.py[m
+[1mindex cf608f5..75318cb 100644[m
+[1m--- a/lists/views.py[m
+[1m+++ b/lists/views.py[m
+[36m@@ -1,10 +1,14 @@[m
+ from django.shortcuts import redirect, render[m
+[31m-from lists.models import Item[m
+[32m+[m[32mfrom lists.models import Item, List[m
+ [m
+ def home_page(request):[m
+[31m-    if request.method == 'POST':[m
+[31m-        Item.objects.create(text=request.POST['item_text'])[m
+[31m-        return redirect('/')[m
+[32m+[m[32m    return render(request, 'home.html')[m
+ [m
+[32m+[m[32mdef view_list(request):[m
+     items = Item.objects.all()[m
+[31m-    return render(request, 'home.html', {'items': items})[m
+\ No newline at end of file[m
+[32m+[m[32m    return render(request, 'list.html', {'items': items})[m
+[32m+[m
+[32m+[m[32mdef new_list(request):[m
+[32m+[m[32m    list_ = List.objects.create()[m
+[32m+[m[32m    Item.objects.create(text=request.POST['item_text'], list=list_)[m
+[32m+[m[32m    return redirect('/lists/the-only-list-in-the-world/')[m
+\ No newline at end of file[m
+[1mdiff --git a/superlists/__pycache__/urls.cpython-36.pyc b/superlists/__pycache__/urls.cpython-36.pyc[m
+[1mindex e58d136..45ad56b 100644[m
+Binary files a/superlists/__pycache__/urls.cpython-36.pyc and b/superlists/__pycache__/urls.cpython-36.pyc differ
+[1mdiff --git a/superlists/urls.py b/superlists/urls.py[m
+[1mindex 3c48e83..e035226 100644[m
+[1m--- a/superlists/urls.py[m
+[1m+++ b/superlists/urls.py[m
+[36m@@ -17,5 +17,7 @@[m [mfrom django.conf.urls import url[m
+ from lists import views[m
+ [m
+ urlpatterns = [[m
+[31m-    url(r'^$',views.home_page, name='home'),[m
+[31m-][m
+[32m+[m[32m    url(r'^$', views.home_page, name='home'),[m
+[32m+[m[32m    url(r'^lists/new$', views.new_list, name='new_list'),[m
+[32m+[m[32m    url(r'^lists/the-only-list-in-the-world/$', views.view_list, name='view_list'),[m
+[32m+[m[32m][m
+\ No newline at end of file[m
