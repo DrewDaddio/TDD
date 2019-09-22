@@ -1,0 +1,15 @@
+[Unit]
+Description=Gunicorn server for 192.168.1.14
+
+[Service]
+Restart=on-failure
+User=pi
+WorkingDirectory=/home/pi/sites/TDD
+EnvironmentFile=/home/pi/sites/TDD/.env
+
+ExecStart=/home/pi/sites/TDD/virtualenv/bin/gunicorn \
+    --bind unix:/tmp/192.168.1.14.socket \
+    superlists.wsgi:application
+
+[Install]
+WantedBy=multi-user.target
