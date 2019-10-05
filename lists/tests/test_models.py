@@ -1,9 +1,5 @@
 from django.test import TestCase
 from lists.models import Item, List
-from django.test import LiveServerTestCase
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-import time
 
 
 class ListAndItemModelsTest(TestCase):
